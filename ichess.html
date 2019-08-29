@@ -1,0 +1,14 @@
+<?php
+for($row = 10; $row >=1; $row--){
+    echo "<tr>";
+    for($column=10;$column > 1; $column--)
+    {
+    if (($row + $column) % 2) {
+    echo "<td></td>";
+    } else {
+    echo "<td class='black'></td>";
+    }
+    }
+    echo "</tr>";
+}
+?>
